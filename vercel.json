@@ -1,7 +1,7 @@
 {
     "buiilds": [
         {
-            "src": "index.js",
+            "src": "app.py",
             "use": "@vercel/python"
         }
     ],
