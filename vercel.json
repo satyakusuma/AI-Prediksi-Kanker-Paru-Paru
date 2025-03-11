@@ -1,0 +1,14 @@
+{
+    "buiilds": [
+        {
+            "src": "index.js",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/.*",
+            "dest": "app.py"
+        }
+    ]
+}
