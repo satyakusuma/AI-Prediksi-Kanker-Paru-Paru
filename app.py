@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__, template_folder='templates')
 
-# Pastikan path model benar
+# Pastikan path model benar 
 model_path = os.path.join(os.path.dirname(__file__), 'knn_model.joblib')
 try:
     model = load(model_path)
