@@ -7,5 +7,3 @@ Matplotlib
 Pandas
 imbalanced-learn
 ipykernel
-
-test ada perubahan
